@@ -1,0 +1,6 @@
+services:
+  nest:
+    image: codeliner96/hello-docker:latest
+    ports:
+      - '8080:3000'
+    restart: always
